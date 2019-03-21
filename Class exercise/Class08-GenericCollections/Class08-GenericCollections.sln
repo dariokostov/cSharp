@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise01", "Exercise01\Exercise01.csproj", "{3ABE907F-C8D4-4E8E-BB20-4AE68A7FA2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise02", "Exercise02\Exercise02.csproj", "{2FA31A34-BC8A-4FED-BB38-79C53A3DD530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{B1243A3F-8CDE-40BD-8CD1-A5046C88C9C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABE907F-C8D4-4E8E-BB20-4AE68A7FA2D0}.Debug|x86.ActiveCfg = Debug|x86
+		{3ABE907F-C8D4-4E8E-BB20-4AE68A7FA2D0}.Debug|x86.Build.0 = Debug|x86
+		{3ABE907F-C8D4-4E8E-BB20-4AE68A7FA2D0}.Release|x86.ActiveCfg = Release|x86
+		{3ABE907F-C8D4-4E8E-BB20-4AE68A7FA2D0}.Release|x86.Build.0 = Release|x86
+		{2FA31A34-BC8A-4FED-BB38-79C53A3DD530}.Debug|x86.ActiveCfg = Debug|x86
+		{2FA31A34-BC8A-4FED-BB38-79C53A3DD530}.Debug|x86.Build.0 = Debug|x86
+		{2FA31A34-BC8A-4FED-BB38-79C53A3DD530}.Release|x86.ActiveCfg = Release|x86
+		{2FA31A34-BC8A-4FED-BB38-79C53A3DD530}.Release|x86.Build.0 = Release|x86
+		{B1243A3F-8CDE-40BD-8CD1-A5046C88C9C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1243A3F-8CDE-40BD-8CD1-A5046C88C9C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{B1243A3F-8CDE-40BD-8CD1-A5046C88C9C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1243A3F-8CDE-40BD-8CD1-A5046C88C9C7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
