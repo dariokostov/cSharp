@@ -66,11 +66,11 @@ namespace Exercise01
 
                 if (input == "1")
                 {
-                    NewMethod(cinema1);
+                    CinemaMethod(cinema1);
                 }
                 else if (input == "2")
                 {
-                    NewMethod(cinema2);
+                    CinemaMethod(cinema2);
                 }
                 else
                 {
@@ -91,7 +91,7 @@ namespace Exercise01
             }
         }
 
-        private static void NewMethod(Cinema cinema)
+        private static void CinemaMethod(Cinema cinema)
         {
             Console.WriteLine("Choose movies or genre?");
             string inputMoviesOrGenre = Console.ReadLine();
