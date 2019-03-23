@@ -72,6 +72,10 @@ namespace Exercise01
                 {
                     NewMethod(cinema2);
                 }
+                else
+                {
+                    throw new Exception("Enter 1 or 2!");
+                }
             }
             catch (FormatException)
             {
