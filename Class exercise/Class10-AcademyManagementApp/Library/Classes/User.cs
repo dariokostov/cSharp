@@ -19,17 +19,6 @@ namespace Library.Classes
             this.Role = Role;
         }
 
-        public void Add()
-        {
-            Console.WriteLine("ADD method");
-        }
-
-
-        public void Remove(string username, List<User> users)
-        {
-            var Proba = users.Where(item => item.Username == username).First();
-            users.Remove(Proba);
-            Console.WriteLine(users);
-        }
+       
     }
 }

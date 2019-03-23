@@ -93,16 +93,6 @@ namespace Exercise01
                     if(InputPassword == user.Password)
                     {
                         Console.WriteLine($"{InputUsername} you are logged in");
-
-                        Console.WriteLine("Remove or add?");
-                        string InputRemoveOrAdd = Console.ReadLine();
-                        if (InputRemoveOrAdd.ToLower() == "remove")
-                        {
-                            foreach (var item in users)
-                            {
-                                Console.WriteLine($" {item.Role}: {item.Username}");
-                            }
-                        }
                         return true;
                     }
                 }
